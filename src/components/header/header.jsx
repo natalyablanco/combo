@@ -51,7 +51,7 @@ class Header extends React.Component {
             <MenuIcon />
           </IconButton>
           <Image
-            src={logo}
+            src="/assets/logo-white.png"
             className={classes.mobile}
             responsive
             onClick={this.goToHome}
@@ -63,7 +63,7 @@ class Header extends React.Component {
       return (
         <div>
           <Image
-            src={logo}
+            src="/assets/logo-white.png"
             className={classes.title}
             responsive
             onClick={this.goToHome}
