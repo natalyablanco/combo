@@ -1,0 +1,54 @@
+import React from 'react';
+import {withStyles} from 'material-ui/styles';
+
+import Footer from '../footer/footer.jsx';
+import Divider from '../divider/divider.jsx';
+import Typography from 'material-ui/Typography';
+
+import GridList from 'material-ui/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
+
+import styles from './styles.js';
+
+class Services extends React.Component {
+  render() {
+    const {classes} = this.props;
+    const tileData = [
+      {
+        img: '/static/weddings.jpg',
+        title: 'Image',
+        author: 'author'
+      },
+      {
+        img: '/static/event.jpg',
+        title: 'Image',
+        author: 'author'
+      },
+      {
+        img: '/static/birthday3.jpg',
+        title: 'Image',
+        author: 'author'
+      }
+    ];
+    return (
+      <main className={classes.container}>
+        <Typography className={classes.headline} variant="display2">
+          Klassiche Musik mit Gitarre und Perkussion
+        </Typography>
+        <Divider />
+        <div className={classes.root}>
+          <GridList className={classes.gridList} cellHeight={480} cols={3}>
+            {tileData.map(tile =>
+              <GridListTile key={tile.img}>
+                <img src={tile.img} alt={tile.title} />
+              </GridListTile>
+            )}
+          </GridList>
+        </div>
+        <Footer />
+      </main>
+    );
+  }
+}
+
+export default withStyles(styles)(Services);
