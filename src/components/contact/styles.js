@@ -1,5 +1,5 @@
 const gradient = 'radial-gradient(rgba(0,0,0,0.2) 20%, black 100%)';
-const image = 'url(/static/media/P10100660.jpg)';
+const image = 'url(/assets/P10100660.jpg)';
 
 export default function() {
   return {

@@ -3,3 +3,4 @@ build
 .gcloud.json
 coverage
 .DS_Store
+.idea/

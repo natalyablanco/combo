@@ -15,12 +15,12 @@ class Combo extends React.Component {
     const {classes} = this.props;
     const tileData = [
       {
-        img: '/static/media/duncan.jpg',
+        img: '/assets/duncan.jpg',
         title: 'Duncan',
         author: 'author'
       },
       {
-        img: '/static/media/fanis.jpg',
+        img: '/assets/fanis.jpg',
         title: 'Fanis',
         author: 'author'
       }

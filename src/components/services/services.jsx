@@ -15,17 +15,17 @@ class Services extends React.Component {
     const {classes} = this.props;
     const tileData = [
       {
-        img: '/static/weddings.jpg',
+        img: '/assets/weddings.jpg',
         title: 'Image',
         author: 'author'
       },
       {
-        img: '/static/event.jpg',
+        img: '/assets/event.jpg',
         title: 'Image',
         author: 'author'
       },
       {
-        img: '/static/birthday3.jpg',
+        img: '/assets/birthday3.jpg',
         title: 'Image',
         author: 'author'
       }
