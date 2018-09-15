@@ -1,14 +1,13 @@
 import React from 'react';
 import classNames from 'classnames';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 import {Image} from 'react-bootstrap';
 
 import logo from '../../assets/logo-white.png';
 import Menu from '../menu/menu.jsx';
 import DrawerMenu from '../drawer-menu/drawer-menu.jsx';
-
-import MenuIcon from 'material-ui-icons/Menu';
-import IconButton from 'material-ui/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
+import IconButton from '@material-ui/core/IconButton';
 
 import styles from './styles.js';
 

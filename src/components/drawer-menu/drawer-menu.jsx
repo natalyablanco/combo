@@ -1,12 +1,13 @@
 import React from 'react';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 
-import Drawer from 'material-ui/Drawer';
-import List, {ListItem} from 'material-ui/List';
+import Drawer from '@material-ui/core/Drawer';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 import {Link} from 'react-router-dom';
 import Divider from '@material-ui/core/Divider';
-import IconButton from 'material-ui/IconButton';
-import ChevronLeftIcon from 'material-ui-icons/ChevronLeft';
+import IconButton from '@material-ui/core/IconButton';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 
 import styles from './styles.js';
 

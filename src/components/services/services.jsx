@@ -1,11 +1,11 @@
 import React from 'react';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 
 import Footer from '../footer/footer.jsx';
 import Divider from '../divider/divider.jsx';
-import Typography from 'material-ui/Typography';
+import Typography from '@material-ui/core/Typography';
 
-import GridList from 'material-ui/GridList';
+import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 
 import styles from './styles.js';
@@ -15,17 +15,17 @@ class Services extends React.Component {
     const {classes} = this.props;
     const tileData = [
       {
-        img: '/static/weddings.jpg',
+        img: '/assets/weddings.jpg',
         title: 'Image',
         author: 'author'
       },
       {
-        img: '/static/event.jpg',
+        img: '/assets/event.jpg',
         title: 'Image',
         author: 'author'
       },
       {
-        img: '/static/birthday3.jpg',
+        img: '/assets/birthday3.jpg',
         title: 'Image',
         author: 'author'
       }

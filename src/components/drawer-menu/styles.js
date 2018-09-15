@@ -3,7 +3,7 @@ export default function() {
     drawerPaper: {
       position: 'relative',
       height: '100%',
-      width: '40px',
+      width: '200px',
       backgroundColor: '#808080e0'
     },
     item: {

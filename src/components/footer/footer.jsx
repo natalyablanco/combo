@@ -1,11 +1,11 @@
 import React from 'react';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 
 import {SocialIcon} from 'react-social-icons';
-import BottomNavigation, {
-  BottomNavigationAction
-} from 'material-ui/BottomNavigation';
-import Typography from 'material-ui/Typography';
+import BottomNavigation from '@material-ui/core/BottomNavigation';
+import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
+
+import Typography from '@material-ui/core/Typography';
 
 import styles from './styles.js';
 

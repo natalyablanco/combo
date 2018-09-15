@@ -1,7 +1,8 @@
 import React from 'react';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 
 import Footer from '../footer/footer.jsx';
+import Divider from '../divider/divider.jsx';
 import {Card, CardText, CardBody, CardTitle} from 'reactstrap';
 import Typography from '@material-ui/core/Typography';
 
@@ -16,7 +17,7 @@ class Welcome extends React.Component {
         <Typography className={classes.headline} variant="display2">
           Klassiche Musik mit Gitarre und Perkussion
         </Typography>
-
+        <Divider />
         <Card className={classes.card}>
           <CardBody>
             <CardTitle className={classes.title}>

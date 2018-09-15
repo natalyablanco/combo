@@ -1,12 +1,12 @@
 import React from 'react';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 
 import Footer from '../footer/footer.jsx';
 import Divider from '../divider/divider.jsx';
 
-import GridList from 'material-ui/GridList';
+import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import Typography from 'material-ui/Typography';
+import Typography from '@material-ui/core/Typography';
 
 import styles from './styles.js';
 
@@ -15,12 +15,12 @@ class Combo extends React.Component {
     const {classes} = this.props;
     const tileData = [
       {
-        img: '/static/media/duncan.jpg',
+        img: '/assets/duncan.jpg',
         title: 'Duncan',
         author: 'author'
       },
       {
-        img: '/static/media/fanis.jpg',
+        img: '/assets/fanis.jpg',
         title: 'Fanis',
         author: 'author'
       }

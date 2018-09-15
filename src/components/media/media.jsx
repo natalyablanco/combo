@@ -1,9 +1,9 @@
 import React from 'react';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 
 import Footer from '../footer/footer.jsx';
 import Divider from '../divider/divider.jsx';
-import Typography from 'material-ui/Typography';
+import Typography from '@material-ui/core/Typography';
 import ReactPlayer from 'react-player';
 import styles from './styles.js';
 

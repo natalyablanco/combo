@@ -12,8 +12,7 @@ export default function(theme) {
       color: '#ffffff',
       fontFamily: myFont,
       fontSize: '20px',
-      margin: '6px',
-      textDecoration: 'none'
+      margin: '6px'
     }
   };
 }

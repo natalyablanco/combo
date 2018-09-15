@@ -1,8 +1,9 @@
 import React from 'react';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 
 import Footer from '../footer/footer.jsx';
-import Typography from 'material-ui/Typography';
+import Divider from '../divider/divider.jsx';
+import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 
 import styles from './styles.js';
@@ -16,6 +17,7 @@ class Contact extends React.Component {
         <Typography className={classes.headline} variant="display2">
           Klassiche Musik mit Gitarre und Perkussion
         </Typography>
+        <Divider />
         <div>
           <Paper className={classes.root} align="center">
             <Typography variant="headline" component="h3">
