@@ -10,21 +10,38 @@ import styles from './styles.js';
 class Media extends React.Component {
   render() {
     const {classes} = this.props;
-
+    const media = [{
+      url:  "https://www.youtube.com/embed/3dAipH6wqz4",
+      name: "Hamburg Combo - Choros no. 1 (Villa-Lobos)"
+    },
+    {
+      url:  "https://www.youtube.com/embed/2eDgD1cyfxs",
+      name: "Hamburg Combo - Vals Venezolano (Lauro)"
+    },
+    {
+      url:  "https://www.youtube.com/embed/nWaswhmh_PM",
+      name: "Hamburg Combo - Scherzino Mexicano (Ponce)"
+    } 
+    ];
     return (
       <main className={classes.container}>
         <Typography className={classes.headline} variant="display2">
           Klassiche Musik mit Gitarre und Perkussion
         </Typography>
         <Divider />
-        <div className={classes.wrapper}>
-          <ReactPlayer
-            className={classes.player}
-            url="https://www.youtube.com/embed/-LuQMryRsAY"
-            width="100%"
-            height="100%"
-          />
-        </div>
+          {
+            media.map(video =>  
+              <div className={classes.playerWrapper} >
+                <Typography  variant="body2" align="center">
+                  {video.name}
+                </Typography>
+                <ReactPlayer 
+                  className={classes.player}
+                  url={video.url}
+                />
+            </div>
+            )
+          }
         <Divider />
         <Footer />
       </main>
