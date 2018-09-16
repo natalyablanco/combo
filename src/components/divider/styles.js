@@ -1,9 +1,8 @@
 export default function() {
   return {
     divider: {
-      background: '#cecece',
-
-      height: '5%'
+      background: 'white',
+      height: '15%'
     }
   };
 }

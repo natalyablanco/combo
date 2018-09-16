@@ -45,6 +45,7 @@ class Services extends React.Component {
             )}
           </GridList>
         </div>
+        <Divider />
         <Footer />
       </main>
     );

@@ -27,7 +27,7 @@ class Contact extends React.Component {
             <Typography component="p">Handy: 01578 169 2500</Typography>
           </Paper>
         </div>
-
+        <Divider />
         <Footer />
       </main>
     );

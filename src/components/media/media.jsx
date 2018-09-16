@@ -25,6 +25,7 @@ class Media extends React.Component {
             height="100%"
           />
         </div>
+        <Divider />
         <Footer />
       </main>
     );

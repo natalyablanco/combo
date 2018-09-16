@@ -8,7 +8,12 @@ export default function() {
     },
     item: {
       color: 'black',
-      fontSize: '30px'
+      fontSize: '30px',
+      '&:hover': {
+        fontSize:'31px',
+        color: 'black',
+        textDecoration: 'none'
+      }
     }
   };
 }

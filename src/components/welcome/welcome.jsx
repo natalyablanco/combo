@@ -46,6 +46,7 @@ class Welcome extends React.Component {
             </CardText>
           </CardBody>
         </Card>
+        <Divider />
         <Footer />
       </main>
     );
