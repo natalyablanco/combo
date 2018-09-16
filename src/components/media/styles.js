@@ -24,15 +24,16 @@ export default function() {
       textAlign: 'center',
       color: '#ffffff80'
     },
-    playerWrapper: {
+    playerWrapper: {      
       position: 'relative',
-      paddingBottom: '5%'
+      paddingTop: '56.25%',
     },
     player: {
-      marginLeft: 'auto',
-      marginRight: 'auto',
-      width: '50%',
-      height: '100%'
+      paddingLeft: '10%',
+      paddingRight: '10%',
+      position: 'absolute',
+      top: '0',
+      left: '0'
     }
   };
 }
